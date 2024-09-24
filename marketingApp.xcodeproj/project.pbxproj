@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38A580BA2CA343DE00E962D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38A580B92CA343DE00E962D6 /* GoogleService-Info.plist */; };
+		38A580BD2CA3453A00E962D6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 38A580BC2CA3453A00E962D6 /* FirebaseAnalytics */; };
+		38A580C92CA346CA00E962D6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A580C82CA346CA00E962D6 /* HomeView.swift */; };
+		38A580CB2CA3476300E962D6 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A580CA2CA3476300E962D6 /* CalendarView.swift */; };
+		38A580CD2CA3478500E962D6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A580CC2CA3478500E962D6 /* ProfileView.swift */; };
+		38A580CF2CA347B600E962D6 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A580CE2CA347B600E962D6 /* CreateView.swift */; };
+		38A580D12CA348A600E962D6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A580D02CA348A600E962D6 /* SignUpView.swift */; };
+		38A580D32CA349A100E962D6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A580D22CA349A100E962D6 /* LoginView.swift */; };
 		38B4EB822C2DCAE2000ED3DA /* marketingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B4EB812C2DCAE2000ED3DA /* marketingAppApp.swift */; };
 		38B4EB842C2DCAE2000ED3DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B4EB832C2DCAE2000ED3DA /* ContentView.swift */; };
 		38B4EB862C2DCAE5000ED3DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B4EB852C2DCAE5000ED3DA /* Assets.xcassets */; };
@@ -14,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38A580B92CA343DE00E962D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		38A580C82CA346CA00E962D6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		38A580CA2CA3476300E962D6 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		38A580CC2CA3478500E962D6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		38A580CE2CA347B600E962D6 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		38A580D02CA348A600E962D6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		38A580D22CA349A100E962D6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		38B4EB7E2C2DCAE2000ED3DA /* marketingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marketingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B4EB812C2DCAE2000ED3DA /* marketingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marketingAppApp.swift; sourceTree = "<group>"; };
 		38B4EB832C2DCAE2000ED3DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A580BD2CA3453A00E962D6 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +67,17 @@
 		38B4EB802C2DCAE2000ED3DA /* marketingApp */ = {
 			isa = PBXGroup;
 			children = (
+				38A580B92CA343DE00E962D6 /* GoogleService-Info.plist */,
 				38B4EB812C2DCAE2000ED3DA /* marketingAppApp.swift */,
 				38B4EB832C2DCAE2000ED3DA /* ContentView.swift */,
 				38B4EB852C2DCAE5000ED3DA /* Assets.xcassets */,
 				38B4EB872C2DCAE5000ED3DA /* Preview Content */,
+				38A580C82CA346CA00E962D6 /* HomeView.swift */,
+				38A580CA2CA3476300E962D6 /* CalendarView.swift */,
+				38A580CC2CA3478500E962D6 /* ProfileView.swift */,
+				38A580CE2CA347B600E962D6 /* CreateView.swift */,
+				38A580D02CA348A600E962D6 /* SignUpView.swift */,
+				38A580D22CA349A100E962D6 /* LoginView.swift */,
 			);
 			path = marketingApp;
 			sourceTree = "<group>";
@@ -83,6 +106,9 @@
 			dependencies = (
 			);
 			name = marketingApp;
+			packageProductDependencies = (
+				38A580BC2CA3453A00E962D6 /* FirebaseAnalytics */,
+			);
 			productName = marketingApp;
 			productReference = 38B4EB7E2C2DCAE2000ED3DA /* marketingApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,9 @@
 				Base,
 			);
 			mainGroup = 38B4EB752C2DCAE2000ED3DA;
+			packageReferences = (
+				38A580BB2CA3453A00E962D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 38B4EB7F2C2DCAE2000ED3DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +156,7 @@
 			files = (
 				38B4EB892C2DCAE5000ED3DA /* Preview Assets.xcassets in Resources */,
 				38B4EB862C2DCAE5000ED3DA /* Assets.xcassets in Resources */,
+				38A580BA2CA343DE00E962D6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A580C92CA346CA00E962D6 /* HomeView.swift in Sources */,
 				38B4EB842C2DCAE2000ED3DA /* ContentView.swift in Sources */,
+				38A580CD2CA3478500E962D6 /* ProfileView.swift in Sources */,
+				38A580D12CA348A600E962D6 /* SignUpView.swift in Sources */,
+				38A580CB2CA3476300E962D6 /* CalendarView.swift in Sources */,
+				38A580CF2CA347B600E962D6 /* CreateView.swift in Sources */,
+				38A580D32CA349A100E962D6 /* LoginView.swift in Sources */,
 				38B4EB822C2DCAE2000ED3DA /* marketingAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +378,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		38A580BB2CA3453A00E962D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		38A580BC2CA3453A00E962D6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38A580BB2CA3453A00E962D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 38B4EB762C2DCAE2000ED3DA /* Project object */;
 }
